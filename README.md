@@ -6,46 +6,21 @@
 
 
 # Backstory:
- Your team has been contracted to develop an inventory management system for a global warehouse company. This company specializes in storing and delivering a wide variety of items to customers worldwide. They are seeking to streamline their operations and enhance user experience through an effective inventory management system. Your task is to create a web-accessible inventory management system using Django.
+ Your team has been contracted to develop a website for a startup e-commerce company. This company specializes in providing a wide variety of items from different suppliers to customers worldwide (you may ). They are seeking to streamline their operations and enhance user experience through an effective online platform. Your task is to create an easy to use web platform for customers and Employees using Django that will track inventor, orders and safely store customers & employee information. 
 
-# Objectives:
- The client’s requirements for the inventory management system are as follows:
 
-    - User Interface (UI): The system should have a user-friendly interface.
+# Objective:
+   You are free to develope the full stack app how you see fit as a team, but you must use:
+    - Django framework
+    - Django's ORM
 
-    - Access Control: The system should only grant access to authorized personnel.
+# Tips: 
 
-    - Order Simulation: The system should be able to simulate customer orders. This includes features such as adding items to a cart and calculating the total cost.
-
-    - Search Functionality: The system should allow users to search the product inventory.
-
-    - Inventory Alerts: The system should alert users when inventory levels are low.
-
-    - CRUD Operations: The system should allow Create, Read, Update, and Delete (CRUD) operations across all database tables for authorized users.
+    - Use github to track changes. this will also allow you to easily access and share your project in the future
     
-    - Data Display: The system should be able to display stored data from selected tables and display related data (e.g., customer name and orders).
+    - Assign roles within your team (e.g., Project Manager, Lead Developer, UI/UX Designer, Quality Assurance...) to simulate real-world team dynamics
+
+    - Review each other’s code to learn from each other and improve your code quality. 
+
+    - Prepare a presentation highlighting why you chose to build your web-application the way you did.
     
-    - Popularity Metrics: The system should be able to display the most and least popular items.
-
-# Database Tables:
-
-Employee
-Customer
-Product
-Order
-Warehouse
-
-# Additional Information:
-
-- Use Django’s ORM for database operations.
-- Use SQLite for simplicity. 
-
-# Tips:
-
-    - Assign roles within your team (e.g., Project Manager, Lead Developer, UI/UX Designer, Quality Assurance...) to simulate real-world team dynamics.
-
-    - Implement user authentication and authorization to ensure only authorized personnel can access the system.
-
-    - Review each other’s code to learn from each other and improve your code quality.
-
-    - Prepare a short presentation to showcase your system and explain your design decisions at the end of the exercise.
