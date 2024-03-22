@@ -10,19 +10,8 @@ Scenario
 You are building an inventory management system for a small warehouse. The system needs to track information about products, stock levels, and suppliers.
 
 # Models
-    Product:
-        Fields:
-            - name 
-            - description 
-            - price 
-            - quantity_in_stock 
-            - supplier 
-    Supplier:
-        Fields:
-            - name 
-            - contact_person 
-            - email 
-            - phone_number 
+    Product 
+    Supplier 
 # CRUD Operations:
 Create:
     Add a new product to the inventory.
@@ -51,4 +40,6 @@ Delete:
     - Review each other’s code to learn from each other and improve your code quality. 
 
     - Prepare a presentation highlighting why you chose to build your web-application the way you did.
+
+    -Introduce new concepts and/or technologies outside of the scope of this exercise, this will benefit you and the team greatly
     
